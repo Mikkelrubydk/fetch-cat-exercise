@@ -1,0 +1,41 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.btn {
+    margin-bottom: 20px;
+    width: 300px;
+    height: 75px;
+    background-color: #8C9DAD ;
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.katte {
+    display: flex;
+    gap: 100px;
+}
+
+.katte-item img {
+    width: 400px;
+    height: 300px;
+}
+
+.katte-item ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+
+.katte-item li {
+    font-size: 30px;
+}
